@@ -35,6 +35,7 @@ app.use((err, req, res, next) => {
 });
 
 let port = process.env.PORT;
+console.log("PORT :", port);
 app.listen(port, () => {
   console.log(`Listening to port ${port}`);
 });
