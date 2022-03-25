@@ -1,0 +1,19 @@
+For Cashback Calculation Logic
+1. For cashback , startDate and endDate both are inclusive.
+
+For Request Body validation:
+1) For Post Ruleset Request:
+    "startDate"
+    "endDate"
+    "cashback"
+    "redemptionLimit"
+Above keys are added as mandatory fields in request body, can be updated in ruleset.schema.js file as per need
+
+2) For Post Transaction Request:
+    "id"
+    "date"
+Above keys are added as mandatory fields in request body, can be updated in transaction.schema.js file as per need
+
+
+For DB
+1. Transaction ID must be unique for each Transaction
