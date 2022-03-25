@@ -1,11 +1,11 @@
 # backend-task
 
 <h3> APIs :</h3>
-POST http://localhost:3000/transaction
+POST https://pulseid.herokuapp.com/transaction
 <br>
-POST http://localhost:3000/ruleset
+POST https://pulseid.herokuapp.com/ruleset
 <br>
-GET http://localhost:3000/cashback
+GET https://pulseid.herokuapp.com/cashback
 
 <br>
 <h3> Tech stack/Library used </h3>
